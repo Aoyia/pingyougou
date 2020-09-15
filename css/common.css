@@ -1,0 +1,233 @@
+/*公共样式*/
+.f1{
+	float: left;
+}
+.fr{
+	float: right;
+}
+@font-face {
+	font-family: 'icomoon';
+	src:  url('../fonts/icomoon.eot?o2v6pj');
+	src:  url('../fonts/icomoon.eot?o2v6pj#iefix') format('embedded-opentype'),
+	url('../fonts/icomoon.ttf?o2v6pj') format('truetype'),
+	url('../fonts/icomoon.woff?o2v6pj') format('woff'),
+	url('../fonts/icomoon.svg?o2v6pj#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+.icomoon{
+	font-family: 'icomoon';
+	line-height: 26px;
+}
+.w{
+	width: 1200px;
+	margin: 0 auto;
+}
+.style-red{
+	color:#c81623;
+}
+/*小竖线*/
+.spacer{
+	width:1px;
+	height: 12px;
+	background-color: #666666; 
+	margin:9px 12px;
+}
+.shortcut {
+	height: 31px;
+	background-color: #f1f1f1;
+	line-height: 31px;
+}
+.shortcut li {
+	float: left;
+}
+/*header区域*/
+.header{
+	position: relative;/*相对定位*/
+	height: 105px;
+}
+.logo{
+	position: absolute;/*绝对定位*/
+	top:25px;
+	left: 0;
+	width: 175px;
+	height: 56px;
+
+}
+.logo a{
+	display: block;
+	/*溢出隐藏*/
+	overflow: hidden;
+	width: 175px;
+	height: 56px;
+	background: url(../img/logo.png) no-repeat;
+	/*首行缩进*/
+	text-indent: -999px;
+	/*京东做法*/
+	font-size:0; 
+}
+.search{
+	position: absolute;
+	top: 25px;
+	left: 348px;
+}
+.text{
+	float: left;
+	width: 435px;
+	height: 32px;
+	border: 2px solid #b1191a;
+	padding-left: 10px;
+	/*让框内文字颜色变浅*/
+	color: #ccc;
+}
+.btn{
+	width: 82px;
+	height: 36px;
+	background-color: #b1191a;
+	/*去框框*/
+	border: 0;
+	/*浮动让两框框紧贴在一起*/
+	float: right;
+	font-size: 16px;
+	color: #fff;
+}
+.hotwrods{
+	position: absolute;
+	top: 65px;
+	left: 348px;
+}
+/*标签与标签之间左右设置距离*/
+.hotwrods a{
+	margin: 0 10px;/*上下0，左右10*/
+}
+/*购物车*/
+.shopcar{
+	position: absolute;
+	top: 25px;
+	right: 64px;
+	width: 138px;
+	height: 34px;
+	border: 1px solid #dfdfdf;/*边框厚度+边框颜色*/
+	background-color: #f7f7f7;
+	font-size: 14px;
+	line-height: 28px;
+}
+.car{
+	font-family: "icomoon";
+	margin-right: 6px;
+	margin-left: 8px;
+	color: #da5555;
+	line-height: 34px;
+}
+.arrow{
+	font-family: "icomoon";
+}
+/*购物数量统计*/
+.count{
+	position: absolute;/*绝对定位*/
+	top: -6px;
+	left: 20PX;
+	background-color: #e60012;
+	line-height: 14px;
+	height: 14px;
+	padding: 0 3px;/*上间距 和 下间距 为 0 左右边距为 3*/
+	color: #fff;
+	border-radius: 7px 7px 7px 0; /*圆角*/
+}
+/*nav start*/
+.nav{
+	height:45px;
+	border-bottom: 2px solid #b1191a; 
+}
+.dorpdown{
+	float: left;
+	width: 209px;
+	height: 45px;
+	background-color: pink;
+
+}
+/*左边边下拉盒子*/
+.dorpdown .dt{
+	width: 100%;
+	height: 100%;
+	background-color: #b1191a;
+	font-size: 16px;
+	color: #fff;/*文字颜色*/
+	text-align: center; /*文字居中*/
+	line-height: 45px;/*行高*/
+}
+.dorpdown .dd{
+	height: 465px;
+	background-color: #c81623;
+	margin-top: 2px;
+}
+.menu_item{
+	height: 31px;
+	width: ;            /*不设置宽度，不会撑大盒子*/
+	line-height: 31px;  /*行间距20px*/
+	margin-left: 1px;   /*li左边外边距1px，类似于盒子和套子之间的距离*/
+	padding:0 10px; /* 盒子的内边距，类似于礼物和礼物盒之间的距离*/
+}
+.menu_item:hover{ /*hover 选择器鼠标指针在其上浮动的链接设置样式。*/
+	background-color: #fff;
+}
+.menu_item a {
+	color: #FFFFFF;	
+	font-size: 14px;
+}
+.menu_item:hover a {
+	color: #c81623 ;
+}
+/*下面的效果是经过a变颜色，上面的是li里面的a变颜色
+.menu_item a:hover {
+	color: #c81623 ;
+}*/
+.menu_item i{ /*只是粘贴icon标志是不行的，要设置一下内容*/
+	font-family:'icomoon';
+	font-size: 18px;
+	color: #fff;
+	float: right;
+}
+.navitems{
+	margin-left: 10px;
+}
+.navitems li {
+	float: left;
+}
+.navitems li a {
+	display: block;
+	height: 45px;
+	padding: 0 25px;
+	line-height: 45px;
+	font-size: 16px;
+}
+
+
+
+/*尾部*/
+
+.footer{ 
+	height:386px;
+	padding-top: 30px;
+	background-color: #f5f5f5;
+}
+.mod_service{
+	height: 79px;
+	background: pink;
+	border-bottom: 1px;
+}
+
+.mod_service li {
+	float: left;
+	width: 240px;
+	height: 70px;
+
+}
+.mod_service_zheng {
+	float: left;
+	width: 50px;
+	height: 50px;
+	background: url(...img/icons.png) no-repeat -253px -3;
+	/*精灵图，要用到平时测量位置，然后使用负值的位置*/
+}
