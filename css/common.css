@@ -215,19 +215,47 @@
 .mod_service{
 	height: 79px;
 	background: pink;
-	border-bottom: 1px;
+	border-bottom: 1px solid #ccc;
 }
 
 .mod_service li {
 	float: left;
 	width: 240px;
-	height: 70px;
+	height: 79px;
 
 }
-.mod_service_zheng {
+.mod_service-icon{
 	float: left;
 	width: 50px;
 	height: 50px;
-	background: url(...img/icons.png) no-repeat -253px -3;
+	background-color: #c81623;
+	background: url(../img/icons.png) no-repeat;
+	margin-left: 35px;
+}
+.mod_service_zheng {
+	background-position:  -253px -3px;
 	/*精灵图，要用到平时测量位置，然后使用负值的位置*/
+}
+.mod_service_kuai {
+	background-position:  -255px -54px;
+	/*精灵图，要用到平时测量位置，然后使s用负值的位置*/
+}
+.mod_service_bao {
+	background-position:  -255px -54px;
+	/*精灵图，要用到平时测量位置，然后使s用负值的位置*/
+}
+.mod_service_sheng {
+	background-position:  -255px -54px;
+	/*精灵图，要用到平时测量位置，然后使s用负值的位置*/
+}
+.mod_service_duo {
+	background-position:  -255px -54px;
+	/*精灵图，要用到平时测量位置，然后使s用负值的位置*/
+}
+.mod_service_tit{
+	float: left;
+	margin-left: 5px;
+}
+.mod_service_tit h5 {
+	margin: 5px 0;
 }
